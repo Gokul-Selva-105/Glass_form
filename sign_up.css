@@ -1,0 +1,152 @@
+body{
+    
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0px;
+    margin: 0px;
+    font-size: 62.5%;
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    
+}
+.backGroundImg{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -10;
+}
+.mid{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#fname,#lname,#phoneoremail{
+  display:block;
+  margin-top: 1rem;
+  padding: 0.5rem ;
+  padding-left: 3rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border-style: none;
+}
+  
+#pass{
+    display: block;
+    margin-top: 3rem;
+    padding: 0.5rem ;
+  padding-left: 3rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border-style: none;
+}
+
+#submit{
+    margin-top: 1rem;
+    padding: 0.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    border-style: none;
+    cursor: pointer;
+    background-color: initial;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 1rem;
+    color: rgb(2, 2, 2);
+    filter: invert(1);
+}
+h1{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+    
+p{
+   font-size: 1.5rem;
+   margin-top: 1rem;
+
+}
+
+.back{
+    border-radius: 1rem;
+    border: solid 0.1px rgba(255, 255, 255, 0.121);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    box-shadow: -5px 5px 20px white;
+}
+
+.soc{
+    justify-content: space-around;
+    
+}
+.soc img{
+    padding-left: 1.5rem;
+}
+
+#submit:hover{
+    background-color: rgb(255, 255, 255);
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+    border-style: none;
+}
+#fname:hover,#lname:hover,#phoneoremail:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    border-style: none;
+}
+#pass:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    border-style: none;
+}
+p:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-out;
+}
+.sin{
+    font-size: 1.5rem;
+   margin-top: 1rem;
+   margin-top: 10rem;
+   text-decoration: none;
+   color: rgb(125, 78, 78);
+   position: relative;
+   top: 0.5rem;
+}
+.sin:active{
+    color: rgb(125, 78, 78);
+}
+.sin:visited{
+    color: rgb(142, 71, 71);
+}
+
+#submit:hover{
+    background-color: rgb(255, 255, 255);
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+    border-style: none;
+}
+#gmail:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    border-style: none;
+}
+#pass:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    border-style: none;
+}
+p:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-out;
+}
