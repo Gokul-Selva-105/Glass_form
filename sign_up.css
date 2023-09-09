@@ -150,3 +150,11 @@ p:hover{
     transform: scale(1.1);
     transition: all 0.2s ease-out;
 }
+
+
+@media screen and (max-width: 420px) {
+
+    .mid{
+     padding: 30px;
+    }
+   }
